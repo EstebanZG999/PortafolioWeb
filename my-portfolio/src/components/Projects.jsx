@@ -5,23 +5,23 @@ const Projects = () => {
   const projects = [
     {
       title: 'Project 1',
-      description: 'TA web project that demonstrates the fundamental principles of HTML. It showcases the story of the RPG game in the world of Aetheria.',
+      description: 'A web project that demonstrates the fundamental principles of HTML. It showcases the story of the RPG game in the world of Aetheria.',
       link: 'https://tiburoncin.lat/22119/Html/index.html',
-      previewImage: '../../public/images/Project 1 Html Web.jpeg',
+      previewImage: '/images/Project 1 Html Web.jpeg', // Cambiado a una ruta relativa a la carpeta public
       skills: ['HTML']
     },
     {
       title: 'Project 2',
       description: 'This project is built using React and Next.js, incorporating HTML, CSS, and JavaScript. It is a blog showcasing the PR numbers of my and my friends.',
       link: 'https://web-proyecto1.vercel.app/',
-      previewImage: '../../public/images/BlogWeb.jpeg', 
+      previewImage: '/images/BlogWeb.jpeg', // Cambiado a una ruta relativa a la carpeta public
       skills: ['React', 'Next.js', 'HTML', 'CSS', 'JavaScript']
     },
     {
       title: 'Project 3',
       description: 'A project focused on the styling capabilities of CSS. It is batman made from only CSS.',
       link: 'https://tiburoncin.lat/22119/Lab4WebV2/html/index.html',
-      previewImage: '../../public/images/BatmanWeb.jpeg', 
+      previewImage: '/images/BatmanWeb.jpeg', // Cambiado a una ruta relativa a la carpeta public
       skills: ['CSS']
     }
   ];
