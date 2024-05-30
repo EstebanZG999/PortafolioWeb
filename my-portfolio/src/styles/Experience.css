@@ -1,0 +1,36 @@
+/* Experience.css */
+.experience {
+  padding: 4rem 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin-left: 40px; 
+}
+
+.experience-item {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.experience-item h3 {
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.experience-item .timeframe {
+  font-size: 1rem;
+  color: var(--nav-color);
+}
+
+.skills {
+  margin-top: 1rem;
+}
+
+.skill {
+  background: var(--highlight-color);
+  color: #0a192f;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+}

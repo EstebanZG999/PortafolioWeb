@@ -1,0 +1,20 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+  padding: 1rem 2rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: var(--nav-color);
+  margin: 0 1rem;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: var(--highlight-color);
+}
